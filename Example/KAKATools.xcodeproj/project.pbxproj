@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03293D7852AA09C5FEDDB8E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		197EE10056900DCB1F38442E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		03293D7852AA09C5FEDDB8E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		197EE10056900DCB1F38442E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1A6309317C30CDCBDDA2B7E2 /* Pods-KAKATools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAKATools_Example.release.xcconfig"; path = "Target Support Files/Pods-KAKATools_Example/Pods-KAKATools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25EFC9E94C887FD9DE6622B3 /* Pods_KAKATools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAKATools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5AF92C40C9A90796D6EF26 /* Pods-KAKATools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAKATools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KAKATools_Tests/Pods-KAKATools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97121380C9E6198450E73709 /* Pods_KAKATools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KAKATools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1E2BCE43119C527ECDA61A /* Pods-KAKATools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KAKATools_Example.debug.xcconfig"; path = "Target Support Files/Pods-KAKATools_Example/Pods-KAKATools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B4663D875EA349AF8505AAAB /* KAKATools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KAKATools.podspec; path = ../KAKATools.podspec; sourceTree = "<group>"; };
+		B4663D875EA349AF8505AAAB /* KAKATools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KAKATools.podspec; path = ../KAKATools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				2C5AF92C40C9A90796D6EF26 /* Pods-KAKATools_Tests.debug.xcconfig */,
 				4DCF3F77F7DC06995371DD7E /* Pods-KAKATools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = itdongqiang;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WZPEKQL9HE;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -513,11 +516,12 @@
 			baseConfigurationReference = 9C1E2BCE43119C527ECDA61A /* Pods-KAKATools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZPEKQL9HE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KAKATools/KAKATools-Prefix.pch";
 				INFOPLIST_FILE = "KAKATools/KAKATools-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanwang.doma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
@@ -529,11 +533,12 @@
 			baseConfigurationReference = 1A6309317C30CDCBDDA2B7E2 /* Pods-KAKATools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WZPEKQL9HE;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KAKATools/KAKATools-Prefix.pch";
 				INFOPLIST_FILE = "KAKATools/KAKATools-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanwang.doma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;

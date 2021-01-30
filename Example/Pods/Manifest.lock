@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KAKATools (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - KAKATools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  KAKATools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KAKATools: ea5b326415b34745ba7f13965001a6592991ab32
+
+PODFILE CHECKSUM: 978b765a80ad939fe6b3b0ae2481a248e444181d
+
+COCOAPODS: 1.10.1

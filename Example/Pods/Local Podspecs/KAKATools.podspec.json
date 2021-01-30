@@ -1,0 +1,28 @@
+{
+  "name": "KAKATools",
+  "version": "0.1.0",
+  "summary": "A short description of KAKATools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/itdongqiang/KAKATools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "itdongqiang": "it_dongqiang@163.com"
+  },
+  "source": {
+    "git": "https://github.com/itdongqiang/KAKATools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KAKATools/Classes/**/*",
+  "resource_bundles": {
+    "KAKATools": [
+      "KAKATools/Assets/**/*"
+    ]
+  },
+  "public_header_files": "Pod/**/*.h"
+}
